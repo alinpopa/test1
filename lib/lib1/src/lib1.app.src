@@ -1,0 +1,16 @@
+{application, lib1,
+ [{description, "An OTP library"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    amqp_client
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
